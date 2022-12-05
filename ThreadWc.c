@@ -1,7 +1,5 @@
 /*  Name: Aimee Haas
-    Program 6
     4-2022
-    Program Name: mywc3.c
     Purpose: Handle multiple threads */
 
 #include <stdio.h>
