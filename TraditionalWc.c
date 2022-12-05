@@ -1,8 +1,6 @@
 
 /*  Name: Aimee Haas
-    Program 6
     4-2022
-    Program Name: mywc1.c
     Purpose: Basic word count program */
 
 #include <stdio.h>
