@@ -1,7 +1,7 @@
 # Word-Count
-An exploration of forking off child processes and threads, to test which is faster.
+An exploration of forking off child processes and threads.
 
-Timing Word Count for ten lengthy files was fastest, 
+Timing Word Count for ten lengthy files to determine which was fastest, 
 best of ten runs for 4693223 total words:
 
 The Traditional Processing (no forking/threading)
