@@ -1,7 +1,5 @@
 /*  Name: Aimee Haas
-    Program 6
     4-2022
-    Program Name: mywc2.c
     Purpose: Handle multiple pipes for simutaneous processing */
 
 #include <stdio.h>
