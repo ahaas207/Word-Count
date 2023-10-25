@@ -1,11 +1,11 @@
-# makefile for mywc1,2,3.c
+# makefile for three versions of wordcount
 
-all: mywc1 mywc2 mywc3
-mywc1: mywc1.c
-	gcc -O2 mywc1.c -o mywc1
+all: TraditionalWc.c ChildProcessingWc.c ThreadWc.C
+TraditionalWc: TraditionalWc.c
+	gcc -O2 TraditionalWc.c -o TraditionalWc
 
-mywc2: mywc2.c
-	gcc -O2 mywc2.c -o mywc2
+ChildProcessingWc: ChildProcessingWc.c
+	gcc -O2 ChildProcessingWc.c -o ChildProcessingWc
 
-mywc3: mywc3.c
-	gcc -O2 mywc3.c -pthread -o mywc3
+ThreadWc: ThreadWc.C
+	gcc -O2 ThreadWc.C -pthread -o ThreadWc
